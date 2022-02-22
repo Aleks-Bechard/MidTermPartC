@@ -10,5 +10,8 @@ public class TestUserprofile
 
       System.out.println(profile.getGenre());
       System.out.println(profile.getUserID());
+      
+      profile.setGenre("Drama");
+      profile.setUserID("12345");
    }
 }
